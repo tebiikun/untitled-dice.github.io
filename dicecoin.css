@@ -1,0 +1,219 @@
+ul,li,a,p{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+h3{
+ font-size:1.1em;
+ font-weight:bold;
+ margin-top:10px;
+ text-align:center;
+}
+
+.container{
+	background-color: #bfd0d9;
+}
+.section>div>ul>li>div{
+	background-color:#fff;
+	border-radius: 15px;
+}
+
+#profitsBlock>ul>li>ul>li>div{
+	border: 2px solid #C8D8E5;
+	
+}
+
+#roller div{
+	border-radius: 15px;
+}
+.section{margin-bottom:100px;}
+
+#profitsBlock>ul>li>ul>li{
+	padding-bottom:5px;
+}
+#profitsBlock>ul>li>ul>li>ul>li{
+	
+}
+.contenedor{
+	border:2px solid #BFD0D9;
+	background-color:#BFD0D9;
+}
+#roller>div{
+	padding:15px;
+}
+#roller fieldset>ul>li>ul>li>label>button{
+	border:0px;
+	background-color:#7696a1;
+	border-radius: 15px 15px 15px 15px;
+	font-size:1em;
+	color:#fff;
+	width:50px;
+	margin-left:10px;
+}
+
+#roller fieldset>ul>li{
+	padding-bottom:5px;
+}
+#roller .centerContainer{
+	float: left;
+	position: relative;
+	left: 50%;
+}
+.buttonCoinCenter{
+	margin: 0;
+	position: relative;
+	left: -50%;
+}
+.inputCoin {
+	float: left;
+	border:0px;
+	width:120px;
+	border-radius: 15px 0px 0px 15px;
+	line-height:30px;
+}
+#roller fieldset>ul>li>ul>li{
+	float:left;
+}
+.boxCoin h3{
+	background-color:#fff;
+}
+.boxCoin>fieldset>ul>li>ul>li>label>button{
+	line-height:24px;
+}
+.chanceLabel{
+	width:40%;
+	float:left;
+	text-align:center;
+	line-height:25px;
+}
+.profit{
+	width:60%;
+	text-align:center;
+	border-radius: 0px 10px 10px 0px;
+	border:0px;
+	line-height:25px;
+}
+
+.inputCoinLabel{
+	background-color:#E7E7E7;
+	width:40px;
+	border-radius: 0px 15px 15px 0px;
+	line-height:32px;
+	text-align:center;
+}
+
+#roller form fieldset{
+	padding-top:15px;
+	background-color:#BFD0D9;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.botonHotKey{
+	left:15px;
+	bottom: -20px;
+	border-radius: 15px;
+	line-height:15px;
+	position:absolute;
+	z-index:100;
+	width:20px;
+}
+
+.botonesHotKey{
+	position:relative;
+}
+
+
+/*********** ***********/
+#chatBox>div{
+	padding: 10px 10px 0px 10px;
+	border-radius: 10px 10px 0px 10px;
+}
+#chatBox>div>ul>li{
+	margin-bottom:10px;
+}
+#chatBox>div>ul>li>ul>li{
+	padding-bottom:5px;
+}
+
+.userConected{
+	position:absolute;
+	bottom:-40px;
+	right:0;
+}
+#chatBox .userConected{
+	width:50%;
+	background-color:#fff;
+	padding:1px;
+	border-radius:0px 0px 10px 10px;
+}
+.chatText{
+	width:100%;
+	border-radius: 10px 10px 10px 10px;
+	background-color:gray;
+	height:35px;
+	
+}
+.chatCointainer{
+	width:100%;
+	height:300px;
+	background-color:#eeeeee;
+}
+
+/**/
+#blue{
+	width:100%;
+	height:30px;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+	line-height:30px;
+	font-family:'Oswald', Helvetica;
+	text-shadow: -1px -1px 0 #2C7AB9;
+	display: block;
+	background: #2c7ab9;
+	border: 1px solid #2c7ab9;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2c7ab9), to(#2c7ab9));
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 4px 0 #4D95C6 inset, 0 0px 0 rgba(127, 100, 100, 0.98) inset, 0 4px 0 #377095, 0 4px 6px rgba(0, 0, 0, .5);
+	margin-bottom:5px;
+}
+
+#blue:hover{
+ background: #61A7DF;
+ background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4885B5), to(#61A7DF));   
+}
+
+#blue:active{
+ -webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset;  position:relative;
+ top:5px;
+}
+
+#showButton{
+	width:30%;
+	height:20px;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+	line-height:20px;
+	font-family:'Oswald', Helvetica;
+	text-shadow: -1px -1px 0 #2C7AB9;
+	display: block;
+	background: #2c7ab9;
+	border: 1px solid #2c7ab9;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2c7ab9), to(#2c7ab9));
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 4px 0 #4D95C6 inset, 0 0px 0 rgba(127, 100, 100, 0.98) inset, 0 4px 0 #377095, 0 4px 6px rgba(0, 0, 0, .5);
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#showButton:hover{
+ background: #61A7DF;
+ background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4885B5), to(#61A7DF));   
+}
+
+#showButton:active{
+ -webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset;  position:relative;
+ top:5px;
+}
+
